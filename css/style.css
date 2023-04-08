@@ -1,3 +1,17 @@
+/* TABLE OF CONTENTS */
+/* ------------------
+1. General
+2. Navbar
+3. Slider
+4. About
+5. Rooms
+6. Services
+6. Team
+7. Gallery
+8. Price
+9. Blog
+10. Footer
+-------------------- */
 /* 1 General */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -175,3 +189,73 @@ p {
         top: 0;
     }
 }
+
+/* 3. Slider */
+.banner_wrapper{
+    height: 40.625rem;
+}
+.banner_wrapper .swiper{
+    width: 100%;
+    height: 100%;
+}
+.banner_wrapper .swiper-slide{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner_wrapper .swiper-slide::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-black);
+    opacity: 0.5;
+    z-index: 0;
+}
+.banner_wrapper .swiper-pagination-bullets .swiper-pagination-bullet{
+    width: .9375rem ;
+    height: .9375rem;
+    background-color: var(--secondary-color);
+    border: 0.0625rem solid var(--bg-white);
+}
+.banner_wrapper .swiper .slide-caption {
+    height: 100%;
+    position: relative;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner_wrapper .swiper .slide-caption p{
+    max-width: 37.5rem;
+    margin: 0 auto;
+    color: var(--text-white);
+}
+.booking-area{
+    background: var(--bg-white);
+    box-shadow: 0.625rem .9375rem 0 rgb(0, 0, 0 / 10%);
+    margin-top: -4rem;
+    padding: 3.125rem 1.875rem;
+    position: relative;
+    z-index: 999999;
+    border-radius: 10px;
+}
+.booking-area .form-control,
+.booking-area .form-select{
+    border: .0625rem solid var(--primary-color);
+    height: 2.5rem;
+    text-transform: uppercase;
+    font-size: .875rem;
+    color: var(--text-black);
+    font-weight: 500;
+}
+.booking-area .form-control:focus,
+.booking-area .form-select:focus{
+    outline: none;
+    box-shadow: none;
+}
+
