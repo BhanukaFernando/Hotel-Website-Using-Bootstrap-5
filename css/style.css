@@ -241,7 +241,7 @@ p {
     margin-top: -4rem;
     padding: 3.125rem 1.875rem;
     position: relative;
-    z-index: 999999;
+    z-index: 99;
     border-radius: 10px;
 }
 .booking-area .form-control,
