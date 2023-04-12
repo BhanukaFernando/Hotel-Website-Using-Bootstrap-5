@@ -15,13 +15,29 @@
     }
 
     /* booking area */
-    .booking-area{
-        padding: 3rem  .625rem;
+    .booking-area {
+        padding: 3rem .625rem;
     }
-    .booking-area .main-btn{
+
+    .booking-area .main-btn {
         padding-left: .3125rem !important;
-        padding-right: .3125rem !important;;
+        padding-right: .3125rem !important;
+
     }
+
+    /* room */
+    .room-items .room-content {
+        padding: 1rem 1.875rem;
+    }
+
+    .room-items .room-content h5 {
+        font-size: 1.2rem;
+    }
+
+    .room-items .room-content p {
+        font-size: 0.75rem;
+    }
+
     /* service */
 
 }
@@ -48,41 +64,59 @@
     }
 
     /* banner wrapper */
-    .banner_wrapper{
-        height:25.625rem;
+    .banner_wrapper {
+        height: 25.625rem;
     }
-    .booking-area{
+
+    .booking-area {
         padding: 3.125rem 1.875rem;
     }
 
     /* About */
-    .about_wrapper{
-     padding-top:22.375rem;
+    .about_wrapper {
+        padding-top: 22.375rem;
     }
+
     /* services */
 
     /* room */
+    .room-items .room-content {
+        padding: 2rem 1.875rem;
+    }
+
+    .room-items .room-content h5 {
+        font-size: 1.5rem;
+    }
+
+    .room-items .room-content p {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width:767px) {
 
     /* custom css */
     h1 {
-        font-size:1.875rem ;
-        line-height:2.5rem ;
+        font-size: 1.875rem;
+        line-height: 2.5rem;
     }
-    h3{
+
+    h3 {
         font-size: 1.75rem;
-        line-height:2.1875 ;
+        line-height: 2.1875;
     }
-    h5{
-         font-size:1.25rem ;
-        
+
+    h5 {
+        font-size: 1.25rem;
+
     }
-    p{
+
+    p {
         font-size: .8125rem;
         line-height: 1.5rem;
     }
+    
+
     /* blog */
 
     /* footer */
