@@ -150,4 +150,7 @@
     }
 
     /* footer */
+    .footer_wrapper > div{
+        padding: 0 1.578rem;
+    }
 }
