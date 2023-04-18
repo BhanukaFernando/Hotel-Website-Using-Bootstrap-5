@@ -571,3 +571,13 @@ p {
     color: var(--text-white);
     border-color: var(--primary-color);
 }
+
+/*10 Blog */
+.Blog_wrapper .blog-content{
+    margin: -5rem 0 0 4.375rem;
+    box-shadow: 0.125rem .25rem rgb(34 30 31 / 40%);
+}
+.our-partner-slider{
+    background-color: var(--bg-color);
+    padding: 3.125rem 0;
+}

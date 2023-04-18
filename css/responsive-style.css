@@ -145,6 +145,9 @@
     
 
     /* blog */
+    .Blog_wrapper .blog-content{
+        margin: 0;
+    }
 
     /* footer */
 }
